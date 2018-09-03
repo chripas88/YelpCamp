@@ -1,0 +1,28 @@
+<% include ../partials/header %>
+
+<div class="row">
+    <div class="col-md-4">
+        <h1><%= user.firstName + " " + user.lastName %></h1>
+        <div class="thumbnail">
+            <img src="<%= user.avatar %>" alt="user profile image">
+            <div class="caption"><a href="mailto:<%= user.email %>"><%= user.email %></a></div>
+        </div>
+        Bacon ipsum dolor amet leberkas picanha porchetta, 
+        venison chuck swine drumstick frankfurter jerky fatback capicola ball tip. 
+        Short ribs short loin chuck swine tenderloin cupim pork loin sausage pork ham hock. 
+        Hamburger meatball rump beef ribs. Chuck hamburger ham hock short ribs prosciutto tenderloin. 
+        Buffalo rump pork tongue, andouille pork belly flank pastrami biltong pig. Pork chop meatball 
+        bacon shoulder turducken pig picanha landjaeger meatloaf.
+    </div>
+    <div class="col-md-8">
+        <h3><%= user.username %>'s campgrounds: </h3>
+        <ul>
+            <% campgrounds.forEach(function(campground){ %>
+                <li><a href="/campgrounds/<%= campground.id %>"><%= campground.name %></a></li>
+            <% }); %>
+        </ul>
+        
+    </div>
+</div>
+
+<% include ../partials/footer %>
