@@ -24,7 +24,7 @@ app.use(methodOverride("_method"));
 app.use(flash());
 
 // Seed DB
-seedDB();
+// seedDB();
 
 app.locals.moment = require('moment');
 
