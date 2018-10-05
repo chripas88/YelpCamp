@@ -72,6 +72,7 @@ var password = "password";
 
 var users;
 
+
 async function seedDB(){
     try{
         await User.remove({});
