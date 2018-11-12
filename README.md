@@ -8,6 +8,7 @@ Yelp Camp project was created using:
 * HTML5
 * CSS3
 * Javascript
+* Bootstrap 3.3.7
 * Node.js
 * MongoDB
 
