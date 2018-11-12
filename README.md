@@ -1,3 +1,44 @@
+# README
+
+Yelp Camp project is part of the Udemy Course: The Web Developer Bootcamp
+and was created following the instructions provided in the course.
+
+Yelp Camp project was created using:
+
+* HTML5
+* CSS3
+* Javascript
+* Node.js
+* MongoDB
+
+Additional packages:
+
+* "express": "^4.16.3"
+* "express-session": "^1.15.6"
+* "body-parser": "^1.18.3"
+* "mongoose": "^5.2.7"
+* "passport": "^0.4.0"
+* "passport-local": "^1.0.0"
+* "passport-local-mongoose": "^5.0.1"
+* "method-override": "^3.0.0"
+* "connect-flash": "^0.1.1"
+* "ejs": "^2.6.1"
+* "dotenv": "^6.0.0"
+* "node-geocoder": "^3.22.0"
+* "moment": "^2.22.2"
+* "nodemailer": "^4.6.8"
+* "async": "^2.6.1"
+
+Git repository:
+
+* GitHub ( https://github.com/chripas88/YelpCamp )
+
+Production environment:
+
+* Heroku ( https://chripas88-yelpcamp.herokuapp.com )
+
+Creation log:
+
 #YelpCamp
 
 * Add Landing Page
@@ -172,4 +213,3 @@
 #Collapsible comment section
 * collapse new
 * collapse edit
-
